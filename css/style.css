@@ -26,6 +26,23 @@
   /* Ensures responsiveness on smaller screens */
 }
 
+/* Mobile Layout: Stack Image & Text Vertically */
+@media (max-width: 768px) {
+    .photo-text-grid {
+        flex-direction: column; /* Stack image & text */
+        text-align: center; /* Center text */
+    }
+
+    .photo-text-grid img {
+        width: 80%; /* Adjusts image width */
+        max-width: 300px; /* Prevents oversized image */
+    }
+
+    .photo-text-grid div {
+        width: 100%; /* Ensure text takes full width */
+        padding: 10px;
+    }
+}
 
 .photo-text-grid img {
     width: 200px; /* Adjust based on your preferred size */
