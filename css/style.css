@@ -12,6 +12,21 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 
+@media (max-width: 768px) {
+    #logo {
+        display: block !important; /* Forces the logo to be visible */
+        width: 100%;
+        text-align: center;
+    }
+
+    #logo svg {
+        max-width: 80%; /* Adjust size for mobile */
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
 .photo-text-grid {
     display: flex;
     align-items: center; /* Centers items vertically */
@@ -45,7 +60,8 @@
 
     .photo-text-grid h3, 
     .photo-text-grid p {
-        color: white !important; /* Override any inherited styles */
+        color: white !important;
+        text-align: center;/* Override any inherited styles */
     }
 }
 
