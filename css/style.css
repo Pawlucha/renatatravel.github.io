@@ -79,7 +79,7 @@
 .photo-text-grid h3 {
     font-size: 1.5rem; /* Adjust title size */
     font-weight: bold;
-    text-align: left;/* Ensures text stays aligned */
+    text-align: center;/* Ensures text stays aligned */
 }
 
 
@@ -905,69 +905,7 @@ svg {
 /* Nav                                                                           */
 /*********************************************************************************/
 
-	#nav
-	{
-	}
 
-		#nav-wrapper
-		{
-	background: rgba(0,0,0,.1);
-	position: absolute;
-	left: 0;
-	width: 100%;
-	top: 0em;
-		}
-		
-		#nav > ul
-		{
-	margin-top: 0;
-	margin-right: 0;
-	margin-left: 0;
-	padding: 0;
-	text-align: center;
-	color: #777;
-	background-image: none;
-	background-position: right top;
-	background-attachment: fixed;
-	margin-bottom: auto;
-		}
-
-		#nav > ul > li
-		{
-			display: inline-block;
-			border-right: 1px solid;
-			border-color: rgba(255,255,255,.1);
-		}
-		
-			#nav > ul > li:last-child
-			{
-				padding-right: 0;
-				border-right: none;
-			}
-
-			#nav > ul > li > a,
-			#nav > ul > li > span
-			{
-	display: inline;
-	padding: 1.5em 1.5em;
-	letter-spacing: 0.06em;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 1.1em;
-	outline: 0;
-	color: #FFF;
-			}
-
-			#nav li.active a
-			{
-	color: #FFF;
-	text-align: center;
-			}
-
-			#nav > ul > li > ul
-			{
-				display: none;
-			}
 	
 /*********************************************************************************/
 /* Main                                                                          */
