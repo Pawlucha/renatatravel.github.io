@@ -12,6 +12,18 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 
+.photo-text-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    align-items: center;
+    gap: 20px;
+}
+
+.photo-text-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 	body
 	{
 		margin: 0;
@@ -96,10 +108,12 @@
 		font-style: italic;
 	}
 	
+blockquote footer {
+    color: rgba(255,255,255,.2);
+}
 	p, ul, ol, dl, table
 	{
 	margin-bottom: 1em;
-	margin-left: 4em;
 	}
 
 	header
