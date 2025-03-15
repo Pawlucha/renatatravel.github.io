@@ -887,6 +887,8 @@ svg {
 			font-size: 1.4em;
 			color: #FFF;
 		}
+		
+
 
 /*********************************************************************************/
 /* Nav                                                                           */
@@ -898,26 +900,7 @@ svg {
 /* Main                                                                          */
 /*********************************************************************************/
 
-	#main
-	{
-		position: relative;
-		background: #fff;
-	}
 	
-	.homepage #content
-	{
-		text-align: center;
-	}
-	
-	.homepage #content header h2
-	{
-	}
-
-	#sidebar h2
-	{
-		display: block;
-		padding-bottom: 0.50em;
-	}
 
 /*********************************************************************************/
 /* Footer                                                                        */

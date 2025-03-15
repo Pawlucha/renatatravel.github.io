@@ -38,7 +38,7 @@ skel.init({
 				position: 'left',
 				style: 'reveal',
 				size: '80%',
-				html: '<div data-action="navList" data-args="nav"></div>'
+				html: ''
 			}
 		},
 		overlays: {
@@ -47,8 +47,7 @@ skel.init({
 				position: 'top-left',
 				height: 44,
 				width: '100%',
-				html: '<span class="toggle" data-action="togglePanel" data-args="navPanel"></span>' +
- '<span class="title" data-action="copyHTML" data-args="logo"></span>'
+				html: ''
 			}
 		}
 	}
