@@ -26,7 +26,6 @@
   /* Ensures responsiveness on smaller screens */
 }
 
-/* Mobile Layout: Stack Image & Text Vertically */
 @media (max-width: 768px) {
     .photo-text-grid {
         flex-direction: column; /* Stack image & text */
@@ -41,6 +40,12 @@
     .photo-text-grid div {
         width: 100%; /* Ensure text takes full width */
         padding: 10px;
+        color: white !important; /* Force text to stay white */
+    }
+
+    .photo-text-grid h3, 
+    .photo-text-grid p {
+        color: white !important; /* Override any inherited styles */
     }
 }
 
