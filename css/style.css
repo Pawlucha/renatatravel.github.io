@@ -53,7 +53,7 @@
 }
 
 .photo-text-grid img {
-    width: 200px; /* Adjust based on your preferred size */
+    width: 250px; /* Adjust based on your preferred size */
     height: auto; /* Keeps the image aspect ratio */
     border-radius: 10px; /* Optional: Adds rounded corners */
 }
